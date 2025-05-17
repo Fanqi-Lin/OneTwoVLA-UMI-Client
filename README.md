@@ -10,7 +10,7 @@ Please follow the [UMI hardware setup instructions](https://github.com/real-stan
 
 **Note:**
 - We remove the mirror and change the gripper design. See [details here](https://drive.google.com/drive/folders/19Mh4s9g5-ohd3_6ZhqTk2WIT-KeQDnH7?usp=drive_link).
-- TCP offset is updated in code ([reference commit]()).
+- TCP offset is updated in code ([reference commit](https://github.com/Fanqi-Lin/OneTwoVLA-UMI-Client/commit/58049fe389323269f4b6464163afe8b9a18560d9)).
 
 ---
 
