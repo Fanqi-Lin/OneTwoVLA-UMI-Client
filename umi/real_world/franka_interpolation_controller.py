@@ -22,9 +22,9 @@ class Command(enum.Enum):
     SCHEDULE_WAYPOINT = 2
 
 tx_flangerot90_tip = np.identity(4)
-tx_flangerot90_tip[:3, 3] = np.array([0, 0.0336, 0.274])
+# tx_flangerot90_tip[:3, 3] = np.array([0, 0.0336, 0.274])
 # modify for new gripper
-# tx_flangerot90_tip[:3, 3] = np.array([0, 0.0336, 0.2424])
+tx_flangerot90_tip[:3, 3] = np.array([0, 0.0336, 0.2424])
 
 tx_flangerot45_flangerot90 = np.identity(4)
 tx_flangerot45_flangerot90[:3,:3] = st.Rotation.from_euler('x', [np.pi/2]).as_matrix()

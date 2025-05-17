@@ -82,9 +82,9 @@ def get_x_projection(tx_tag_this, tx_tag_other):
 @click.command()
 @click.option('-i', '--input', required=True, help='Project directory')
 @click.option('-o', '--output', default=None)
-@click.option('-to', '--tcp_offset', type=float, default=0.205, help="Distance from gripper tip to mounting screw")
+# @click.option('-to', '--tcp_offset', type=float, default=0.205, help="Distance from gripper tip to mounting screw")
 # modify for new gripper
-# @click.option('-to', '--tcp_offset', type=float, default=0.174, help="Distance from gripper tip to mounting screw")
+@click.option('-to', '--tcp_offset', type=float, default=0.174, help="Distance from gripper tip to mounting screw")
 @click.option('-ts', '--tx_slam_tag', default=None, help="tx_slam_tag.json")
 @click.option('-nz', '--nominal_z', type=float, default=0.072, help="nominal Z value for gripper finger tag")
 @click.option('-ml', '--min_episode_length', type=int, default=24)
